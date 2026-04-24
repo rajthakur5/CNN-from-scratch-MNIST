@@ -13,7 +13,15 @@ This project implements a Convolutional Neural Network (CNN) from scratch using 
 
 ## Results
 - Test Accuracy: ~81.6%
+- 
+### Training Performance
+![Training](images/training.png)
 
+### Confusion Matrix
+![Confusion](images/confusion.png)
+
+### Predictions
+![Predictions](images/predictions.png)
 ## Outputs
 - Confusion Matrix
 - Training Graphs
