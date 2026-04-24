@@ -1,19 +1,22 @@
 # CNN-from-scratch-MNIST
 Custom CNN using NumPy for image classification
+
 # CNN from Scratch (NumPy)
 
-This project implements a Convolutional Neural Network (CNN) from scratch using NumPy for handwritten digit classification on the MNIST dataset.
+This project is a simple implementation of a Convolutional Neural Network (CNN) built completely from scratch using NumPy. The goal was to understand how CNNs actually work internally without using libraries like TensorFlow or PyTorch.
+
+The model is trained on the MNIST dataset to classify handwritten digits (0–9).
 
 ## Features
-- Convolution layer (manual)
-- ReLU activation
-- Max pooling
-- Fully connected layer
-- Backpropagation
+- Manual implementation of convolution layer  
+- ReLU activation function  
+- Max pooling layer  
+- Fully connected layer  
+- Backpropagation from scratch  
 
 ## Results
 - Test Accuracy: ~81.6%
-- 
+
 ### Training Performance
 ![Training](images/training.png)
 
@@ -22,13 +25,14 @@ This project implements a Convolutional Neural Network (CNN) from scratch using 
 
 ### Predictions
 ![Predictions](images/predictions.png)
+
 ## Outputs
-- Confusion Matrix
-- Training Graphs
-- Prediction Visualization
+- Confusion Matrix  
+- Training graphs (loss and accuracy)  
+- Prediction visualization (Predicted vs Actual)  
 
 ## Dataset
 MNIST handwritten digits (0–9)
 
 ## Author
-RAJ THAKUR
+Raj Thakur
